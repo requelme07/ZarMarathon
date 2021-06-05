@@ -73,7 +73,7 @@ function changeHp(player) {
         player.hp = 0
 
         $arenas.appendChild(playerLose(player.name))
-        $randomBtn.disabled = true
+        $randomBtn.disabled = false;
     }
 
 }
